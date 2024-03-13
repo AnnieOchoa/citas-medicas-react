@@ -84,8 +84,8 @@ const App = () => {
           </div>
           <div className="card-container__content">
             {cards.length 
-            ? cards.map((card) => 
-              (<Card sympthoms={card.sympthoms} date={card.date} specialty={card.specialty} email={card.email} name={card.name} />)) 
+            ? cards.map((card, index) => 
+              (<Card key={index} sympthoms={card.sympthoms} date={card.date} specialty={card.specialty} email={card.email} name={card.name} />)) 
             : (
               <section className='empty-state'>
               <h3>No tienes citas. Comienza agregando una</h3>
