@@ -1,0 +1,24 @@
+.main-header {
+  width: 100%;
+  padding-bottom: 350px;
+  background-color: var(--thirdColor);
+  z-index: 0;
+}
+
+.main-header-wrapper {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__logo {
+  img {
+    width: 150px;
+  }
+}
+
+.main-header__cta {
+  display: flex;
+  gap: 10px;
+}

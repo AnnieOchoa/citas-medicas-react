@@ -1,0 +1,30 @@
+.btn_base {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 1px solid var(--primaryColor);
+  transition: 300ms;
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 30%;
+  }
+}
+
+.filled-btn {
+  @extend .btn_base;
+  background-color: var(--primaryColor);
+  color: #fff;
+  &:hover:not(:disabled) {
+    background-color: #fff;
+  }
+}
+
+.outlined-btn {
+  @extend .btn_base;
+  background-color: #fff;
+  &:hover:not(:disabled) {
+    background-color: var(--primaryColor);
+    color: #fff;
+  }
+}

@@ -1,0 +1,49 @@
+.main-card{
+    border-radius: 10px;
+    width: 285px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: auto;
+    max-height: 400px;
+    padding: 15px;
+    margin: 10px;
+    &__avatar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4A55A2;
+        clip-path: circle(50%);
+        height: 80px;
+        width: 80px;
+        margin: 0 auto;
+        p{
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    hr{
+        border: 1px solid #e6e6e6;
+        margin: 10px 0;
+    }
+    &__heading{
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    &__text{
+        text-align: center;
+        font-weight: normal;
+        font-size: 15px;
+        margin: 8px 0;
+
+    }
+    &__CTA{
+        margin: 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}

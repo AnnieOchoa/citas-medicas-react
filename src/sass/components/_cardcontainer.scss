@@ -1,0 +1,13 @@
+.card-container {
+    &__heading{
+        text-align: center;
+        margin: 20px 0;
+        font-size: 27px;
+    }
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+}
